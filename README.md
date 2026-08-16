@@ -131,5 +131,3 @@ for this) or partnering directly with a shelter willing to share it.
 - Swipe-card browsing mode as an alternative to the grid.
 - Push notifications when a new pet matching your saved filters is posted.
 - Share a pet's listing (Android share sheet) straight from the detail screen.
-#   l a - p e t - a d o p t  
- 
