@@ -22,6 +22,7 @@ import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material.icons.filled.OpenInNew
 import androidx.compose.material.icons.filled.Pets
 import androidx.compose.material.icons.filled.Place
+import androidx.compose.material.icons.filled.Share
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.Card
@@ -57,6 +58,7 @@ fun PetDetailScreen(
     onBack: () -> Unit
 ) {
     val uiState by viewModel.uiState.collectAsState()
+    val context = LocalContext.current
 
     Scaffold(
         topBar = {
@@ -73,11 +75,14 @@ fun PetDetailScreen(
                 },
                 actions = {
                     if (uiState is DetailUiState.Success) {
-                        val isFavorite = (uiState as DetailUiState.Success).isFavorite
+                        val state = uiState as DetailUiState.Success
+                        IconButton(onClick = { context.startActivity(sharePetIntent(state.pet, state.shelter)) }) {
+                            Icon(Icons.Filled.Share, contentDescription = "Share ${state.pet.name}")
+                        }
                         IconButton(onClick = viewModel::toggleFavorite) {
                             Icon(
-                                imageVector = if (isFavorite) Icons.Filled.Favorite else Icons.Filled.FavoriteBorder,
-                                contentDescription = if (isFavorite) "Remove from favorites" else "Add to favorites"
+                                imageVector = if (state.isFavorite) Icons.Filled.Favorite else Icons.Filled.FavoriteBorder,
+                                contentDescription = if (state.isFavorite) "Remove from favorites" else "Add to favorites"
                             )
                         }
                     }
@@ -251,4 +256,30 @@ private fun ShelterSection(shelter: Shelter?, fallbackCity: String?, fallbackSta
             }
         }
     }
+}
+
+/**
+ * Builds an [Intent.ACTION_SEND] chooser so a pet can be forwarded to a friend/relative via
+ * whatever app they pick (Messages, WhatsApp, email, etc). There's no real listing URL to link
+ * to (no live API, no published web page for the app), so this shares a plain-text summary
+ * instead — including [Pet.description], which already carries the "sample listing" disclosure,
+ * so a share never implies to the recipient that this is a real, currently-adoptable animal.
+ */
+private fun sharePetIntent(pet: Pet, shelter: Shelter?): Intent {
+    val shareText = buildString {
+        append("Meet ${pet.name}! ${pet.breedLabel} · ${pet.age} · ${pet.gender} · ${pet.size}\n\n")
+        append(pet.description)
+        if (shelter != null) {
+            append("\n\nContact: ${shelter.name}")
+            if (shelter.displayAddress.isNotBlank()) append("\n${shelter.displayAddress}")
+            shelter.phone?.let { phone -> append("\nPhone: $phone") }
+        }
+        append("\n\nShared from the LA Pet Adopt app")
+    }
+    val sendIntent = Intent(Intent.ACTION_SEND).apply {
+        type = "text/plain"
+        putExtra(Intent.EXTRA_SUBJECT, "Meet ${pet.name} — up for adoption")
+        putExtra(Intent.EXTRA_TEXT, shareText)
+    }
+    return Intent.createChooser(sendIntent, "Share ${pet.name}")
 }

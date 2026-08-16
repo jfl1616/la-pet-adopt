@@ -38,23 +38,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "49",
-                        "endOffsets": "100"
-                    },
-                    "to": {
-                        "startLines": "105",
-                        "startColumns": "4",
-                        "startOffsets": "6374",
-                        "endColumns": "49",
-                        "endOffsets": "6419"
-                    }
-                },
-                {
                     "source": "C:\\Users\\josef\\.gradle\\caches\\8.14.3\\transforms\\2c70a9f925452657003261bd0496d758\\transformed\\navigation-runtime-2.8.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,10,13",
@@ -288,7 +271,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    },
+                    "to": {
+                        "startLines": "105",
+                        "startColumns": "4",
+                        "startOffsets": "6374",
+                        "endColumns": "49",
+                        "endOffsets": "6419"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -305,7 +305,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

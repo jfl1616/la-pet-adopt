@@ -9,8 +9,8 @@
 9        android:targetSdkVersion="36" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:4:5-67
-11-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:4:22-64
+11-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:4:22-64
 12
 13    <permission
 13-->[androidx.core:core:1.13.1] C:\Users\josef\.gradle\caches\8.14.3\transforms\1e77115d547e473df4e8dcbe91f28d6f\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
@@ -24,43 +24,43 @@
 17-->[androidx.core:core:1.13.1] C:\Users\josef\.gradle\caches\8.14.3\transforms\1e77115d547e473df4e8dcbe91f28d6f\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:6:5-24:19
+19-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:6:5-24:19
 20        android:name="com.joseapps.lapetadopt.LaPetAdoptApp"
-20-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:7:9-38
+20-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:7:9-38
 21        android:allowBackup="true"
-21-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:8:9-35
+21-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:8:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.13.1] C:\Users\josef\.gradle\caches\8.14.3\transforms\1e77115d547e473df4e8dcbe91f28d6f\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 23        android:debuggable="true"
 24        android:extractNativeLibs="false"
 25        android:icon="@mipmap/ic_launcher"
-25-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:9:9-43
+25-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:9:9-43
 26        android:label="@string/app_name"
-26-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:10:9-41
+26-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:10:9-41
 27        android:roundIcon="@mipmap/ic_launcher"
-27-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:11:9-48
+27-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:11:9-48
 28        android:supportsRtl="true"
-28-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:12:9-35
+28-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:12:9-35
 29        android:testOnly="true"
 30        android:theme="@style/Theme.LaPetAdopt" >
-30-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:13:9-48
+30-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:13:9-48
 31        <activity
-31-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:15:9-23:20
+31-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:15:9-23:20
 32            android:name="com.joseapps.lapetadopt.MainActivity"
-32-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:16:13-41
+32-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:16:13-41
 33            android:exported="true"
-33-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:17:13-36
+33-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:17:13-36
 34            android:theme="@style/Theme.LaPetAdopt" >
-34-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:18:13-52
+34-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:18:13-52
 35            <intent-filter>
-35-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:19:13-22:29
+35-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:19:13-22:29
 36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:20:17-69
-36-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:20:25-66
+36-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:20:17-69
+36-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:20:25-66
 37
 38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:21:17-77
-38-->C:\Users\josef\Downloads\LAPetAdopt\LAPetAdopt\app\src\main\AndroidManifest.xml:21:27-74
+38-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:21:17-77
+38-->C:\Users\josef\Downloads\LAPetAdopt_1\LAPetAdopt\app\src\main\AndroidManifest.xml:21:27-74
 39            </intent-filter>
 40        </activity>
 41

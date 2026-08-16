@@ -1,18 +1,18 @@
-#Sat Aug 15 17:33:40 PDT 2026
-base.0=C\:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.10=C\:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.11=C\:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
-base.12=C\:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.13=C\:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
-base.2=C\:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
-base.3=C\:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.4=C\:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.5=C\:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.6=C\:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.7=C\:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.8=C\:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.9=C\:\\Users\\josef\\Downloads\\LAPetAdopt\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+#Sat Aug 15 20:00:06 PDT 2026
+base.0=C\:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.10=C\:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.11=C\:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.12=C\:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.13=C\:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+base.2=C\:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.3=C\:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.4=C\:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.5=C\:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.6=C\:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.7=C\:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.8=C\:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.9=C\:\\Users\\josef\\Downloads\\LAPetAdopt_1\\LAPetAdopt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.10=8/classes.dex
