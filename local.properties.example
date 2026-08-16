@@ -1,0 +1,8 @@
+# Copy this file to "local.properties" (same folder) and Android Studio will fill in its own
+# "sdk.dir=..." line automatically the first time you open this project.
+#
+# Nothing else is required right now: the app currently runs on built-in sample data because
+# Petfinder's API (which this app originally used) shut down December 2, 2025. See the README's
+# "Petfinder shut down" section for what happened and how to wire up a real data source like
+# RescueGroups.org once you have credentials for one — at that point this file is where you'd
+# add API keys/secrets so they stay out of git (local.properties is already in .gitignore).

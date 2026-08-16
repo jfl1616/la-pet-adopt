@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple paw-print glyph, centered in the adaptive icon safe zone -->
+    <group android:translateX="18" android:translateY="18">
+        <path
+            android:fillColor="@color/launcher_foreground"
+            android:pathData="M36,30 C40.4,30 44,34.5 44,40 C44,45.5 40.4,50 36,50 C31.6,50 28,45.5 28,40 C28,34.5 31.6,30 36,30 Z" />
+        <path
+            android:fillColor="@color/launcher_foreground"
+            android:pathData="M54,30 C58.4,30 62,34.5 62,40 C62,45.5 58.4,50 54,50 C49.6,50 46,45.5 46,40 C46,34.5 49.6,30 54,30 Z" />
+        <path
+            android:fillColor="@color/launcher_foreground"
+            android:pathData="M22,46 C25.9,46 29,50.5 29,56 C29,61.5 25.9,66 22,66 C18.1,66 15,61.5 15,56 C15,50.5 18.1,46 22,46 Z" />
+        <path
+            android:fillColor="@color/launcher_foreground"
+            android:pathData="M68,46 C71.9,46 75,50.5 75,56 C75,61.5 71.9,66 68,66 C64.1,66 61,61.5 61,56 C61,50.5 64.1,46 68,46 Z" />
+        <path
+            android:fillColor="@color/launcher_foreground"
+            android:pathData="M45,54 C54.4,54 64,61.5 64,71 C64,78 58,82 51,79 C47.5,77.5 42.5,77.5 39,79 C32,82 26,78 26,71 C26,61.5 35.6,54 45,54 Z" />
+    </group>
+</vector>
