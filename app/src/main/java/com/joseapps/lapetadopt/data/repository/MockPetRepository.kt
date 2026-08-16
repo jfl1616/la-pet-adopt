@@ -20,6 +20,7 @@ class MockPetRepository(private val pageSize: Int = 8) : PetRepository {
         val matches = MockPetData.pets.filter { pet ->
             (filter.type == null || pet.type.equals(filter.type.label, ignoreCase = true)) &&
                 (filter.breedQuery.isBlank() ||
+                    pet.name.contains(filter.breedQuery, ignoreCase = true) ||
                     pet.primaryBreed.contains(filter.breedQuery, ignoreCase = true) ||
                     pet.secondaryBreed?.contains(filter.breedQuery, ignoreCase = true) == true) &&
                 (filter.ages.isEmpty() || filter.ages.any { it.label.equals(pet.age, ignoreCase = true) }) &&

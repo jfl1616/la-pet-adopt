@@ -74,7 +74,7 @@ fun FilterSheetContent(
                     FilterChip(
                         selected = type == option,
                         onClick = { type = if (type == option) null else option },
-                        label = { Text(option.label) }
+                        label = { Text("${option.emoji} ${option.label}") }
                     )
                 }
             }
@@ -83,7 +83,7 @@ fun FilterSheetContent(
         OutlinedTextField(
             value = breedQuery,
             onValueChange = { breedQuery = it },
-            label = { Text("Breed (optional, e.g. \"Labrador\")") },
+            label = { Text("Name or breed (optional, e.g. \"Maple\" or \"Labrador\")") },
             modifier = Modifier.fillMaxWidth()
         )
 

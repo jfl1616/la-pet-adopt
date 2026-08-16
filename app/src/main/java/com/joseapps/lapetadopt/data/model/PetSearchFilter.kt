@@ -15,15 +15,15 @@ data class PetSearchFilter(
     val urgentOnly: Boolean = false
 )
 
-enum class PetType(val apiValue: String, val label: String) {
-    DOG("Dog", "Dog"),
-    CAT("Cat", "Cat"),
-    RABBIT("Rabbit", "Rabbit"),
-    BIRD("Bird", "Bird"),
-    SMALL_FURRY("Small & Furry", "Small & Furry"),
-    HORSE("Horse", "Horse"),
-    BARNYARD("Barnyard", "Barnyard"),
-    SCALES_FINS_OTHER("Scales, Fins & Other", "Scales, Fins & Other")
+enum class PetType(val apiValue: String, val label: String, val emoji: String) {
+    DOG("Dog", "Dog", "🐶"),
+    CAT("Cat", "Cat", "🐱"),
+    RABBIT("Rabbit", "Rabbit", "🐰"),
+    BIRD("Bird", "Bird", "🐦"),
+    SMALL_FURRY("Small & Furry", "Small & Furry", "🐹"),
+    HORSE("Horse", "Horse", "🐴"),
+    BARNYARD("Barnyard", "Barnyard", "🐄"),
+    SCALES_FINS_OTHER("Scales, Fins & Other", "Scales, Fins & Other", "🐠")
 }
 
 enum class PetAge(val apiValue: String, val label: String) {
