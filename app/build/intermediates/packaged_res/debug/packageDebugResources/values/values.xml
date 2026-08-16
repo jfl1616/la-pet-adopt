@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="launcher_background">#FF6D4C41</color>
-    <color name="launcher_foreground">#FFFFFFFF</color>
-    <string name="app_name">LA Pet Adopt</string>
-    <style name="Theme.LaPetAdopt" parent="android:Theme.Material.Light.NoActionBar"/>
-</resources>
